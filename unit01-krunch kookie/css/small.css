@@ -1,5 +1,4 @@
-h1 {color: rgba(255, 0, 0, 0);
-}
+
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -15,8 +14,9 @@ body {
 
 /*header rules here*/
 header {
-    background-color: #17a8e4;
+    background-color: #e49217;
     padding: 1rem 2%;
+    font-style: italic;
 }
 header h1{
     margin: 0;
@@ -27,20 +27,20 @@ header h2{
 
 
 /*navigation rules here*/
-nav {background-color: #111;}
+nav {background-color: rgb(46, 44, 44);}
 nav ul {margin: 0; padding:0;}
 nav li{list-style-type: none;}
-nav li.active {background-color:#333;}
+nav li.active {background-color:rgb(179, 154, 107);}
 nav a {
     display: block;
     padding: .8rem; /*44 min height*/
     color: #eee;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: grey;
+    background-color: rgb(94, 83, 83);
 }
 
 /*main rules here*/
@@ -50,7 +50,7 @@ main {
 
 }
 
-main h1 {color: rgb(85, 82, 82);}
+main h1 {color: rgb(114, 82, 21);}
 
 main figure img{ width: 100%;}
 main figure{
@@ -63,5 +63,5 @@ main figcaption { text-align: center; font-size: .8rem;}
 footer {
     text-align: center;
     padding: 1rem 2%;
-    background-color: #e4b519;
+    background-color: #e49217;
 }
